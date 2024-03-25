@@ -1,0 +1,28 @@
+/*
+1-element Selector
+*/
+h2{
+    color:chartreuse;
+    font-size: 36px;
+}
+/*
+2-Class Selector
+*/
+.paragraph{
+    font-size: 20px;
+    color:chartreuse;
+}
+/*
+3-id-Selector
+*/
+#twoList{
+    color:chocolate;
+    font-size: 37px;
+}
+/*
+4-Attribute Selector
+*/
+img[alt="Picture For Meat"]{
+    width:200px;
+    height:200px;
+}
