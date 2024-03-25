@@ -26,3 +26,25 @@ img[alt="Picture For Meat"]{
     width:200px;
     height:200px;
 }
+/*Style Task 2*/
+
+/*Attribute && grouping Selector*/
+input[type="text"]:hover ,
+input[type="email"]:hover {
+    background-color:chartreuse;
+    font-size: 23px;
+    color:white;
+    
+}
+input[type="password"]:hover  {
+    background-color:rgb(39, 48, 175);
+    font-size: 23px;
+    color:rgb(146, 218, 51);
+}
+
+input[type="checkbox"] + label ,
+input[type="checkbox"] {
+    font-size: 20px;
+    
+    color:chartreuse;
+}
